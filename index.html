@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#f8f5ec">
   <meta name="description" content="723 Cafecito St. — current event menu and featured drinks in El Paso.">
   <title>723 Cafecito St. | Menu</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <header class="masthead">
@@ -16,9 +16,9 @@
   <main>
     <section class="event" aria-labelledby="event-title">
       <p class="eyebrow">Find us at</p>
-      <h1 id="event-title"></h1>
-      <p id="event-details" class="event-details"></p>
-      <a id="event-map" class="map-link" target="_blank" rel="noopener noreferrer">Get directions ↗</a>
+      <h1 id="event-title">Socorro Fest</h1>
+      <p id="event-details" class="event-details">Saturday, September 26 · 4–10 PM · Three Missions Brewery · 10179 Socorro Rd, Socorro, TX 79927</p>
+      <a id="event-map" class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=Three+Missions+Brewery+10179+Socorro+Rd+Socorro+TX+79927" target="_blank" rel="noopener noreferrer">Get directions ↗</a>
     </section>
     <nav class="quicklinks" aria-label="Page sections"><a href="#featured">Featured drinks</a><a href="#menu">Full menu</a></nav>
     <section id="menu" class="menu" aria-labelledby="menu-title">
@@ -27,15 +27,18 @@
     </section>
     <section id="featured" class="featured" aria-labelledby="featured-title">
       <div class="section-heading"><p class="eyebrow">On the street</p><h2 id="featured-title">Featured drinks</h2></div>
-      <div id="featured-list" class="featured-list"></div>
+      <div id="featured-list" class="featured-list">
+        <article class="feature-card"><img class="feature-image" src="assets/caramel-green-apple-latte.png" alt="Iced caramel green apple latte" loading="lazy"><div class="feature-body"><div class="feature-row"><h3>Caramel Green Apple Latte</h3><strong>$8.00</strong></div><p>Hot or iced</p></div></article>
+        <article class="feature-card"><img class="feature-image" src="assets/pumpkin-spice-latte.png" alt="Iced pumpkin spice latte" loading="lazy"><div class="feature-body"><div class="feature-row"><h3>Pumpkin Spice Latte</h3><strong>$8.00</strong></div><p>Hot or iced</p></div></article>
+        <article class="feature-card"><img class="feature-image" src="assets/street-coolers.png" alt="Watermelonade, Dirty Cow and Mango Traffic Jam" loading="lazy"><div class="feature-body"><div class="feature-row"><h3>Street Coolers</h3><strong>From $8.00</strong></div><p>Watermelonade · Dirty Cow · Mango Traffic Jam</p></div></article>
+        <article class="feature-card"><img class="feature-image" src="assets/matcha.png" alt="Iced matcha latte" loading="lazy"><div class="feature-body"><div class="feature-row"><h3>Iced Matcha Latte</h3><strong>$7.00</strong></div><p>Strawberry or mango flavor +$1.00</p></div></article>
+      </div>
     </section>
     <a class="instagram-cta" href="https://www.instagram.com/723cafecitostreet/" target="_blank" rel="noopener noreferrer" aria-label="Follow 723 Cafecito St. on Instagram">
-      <svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+      <svg class="instagram-icon" width="38" height="38" style="width:38px;height:38px;flex:none" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
       <span><strong>Follow us on Instagram</strong><small>@723cafecitostreet</small></span><span aria-hidden="true">↗</span>
     </a>
   </main>
   <footer><img src="assets/logo.png" alt=""><p>Good drinks. Go further.</p><a href="https://www.instagram.com/723cafecitostreet/" target="_blank" rel="noopener noreferrer">@723cafecitostreet ↗</a></footer>
-  <script src="menu.js"></script>
-  <script src="site.js"></script>
 </body>
 </html>
