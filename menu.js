@@ -6,8 +6,8 @@ window.CAFECITO_MENU = {
     map: "https://www.google.com/maps/search/?api=1&query=Three+Missions+Brewery+10179+Socorro+Rd+Socorro+TX+79927"
   },
   featured: [
-    { name: "Caramel Green Apple Latte", price: "$8.00", description: "Hot or iced", image: "assets/fall-drinks.png", alt: "Caramel green apple and pumpkin spice lattes" },
-    { name: "Pumpkin Spice Latte", price: "$8.00", description: "Hot or iced", image: "assets/fall-drinks.png", alt: "Caramel green apple and pumpkin spice lattes" },
+    { name: "Caramel Green Apple Latte", price: "$8.00", description: "Hot or iced", image: "assets/caramel-green-apple-latte.png", alt: "Iced caramel green apple latte" },
+    { name: "Pumpkin Spice Latte", price: "$8.00", description: "Hot or iced", image: "assets/pumpkin-spice-latte.png", alt: "Iced pumpkin spice latte" },
     { name: "Street Coolers", price: "From $8.00", description: "Watermelonade · Dirty Cow · Mango Traffic Jam", image: "assets/street-coolers.png", alt: "Watermelonade, Dirty Cow and Mango Traffic Jam" },
     { name: "Iced Matcha Latte", price: "$7.00", description: "Strawberry or mango flavor +$1.00", image: "assets/matcha.png", alt: "Iced matcha latte" }
   ],

@@ -11,6 +11,6 @@ Static website for GitHub Pages. It does not take online orders.
 
 ## Update for the next event
 
-Edit only `menu.js` in GitHub. Change `event`, `featured`, `categories`, and `note` as needed, then commit. The URL remains the same. Keep image paths relative (for example `assets/matcha.png`). New photos go into `assets/`.
+Edit `menu.js` in GitHub to change the event details and featured drink cards, then commit. For a new event menu, replace `assets/socorro-menu.png` with the new poster image using the same filename, or update its path in `index.html`. The URL remains the same. Keep image paths relative (for example `assets/matcha.png`). New photos go into `assets/`.
 
 GitHub Pages updates may take a few minutes. Check the live page after each change. The full Socorro Fest menu image is also included in `assets/socorro-menu.png` as a reference.
