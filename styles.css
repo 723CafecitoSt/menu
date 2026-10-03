@@ -90,8 +90,10 @@ h2 { font-size: clamp(2.15rem, 4.7vw, 3.6rem); letter-spacing: -.055em; line-hei
 .photo-wrap { height: clamp(260px, 34vw, 365px); display: grid; place-items: center; overflow: hidden; background: #eee5d4; }
 .photo-wrap img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: center center; }
 .photo-wrap.coolers { background: #f9f5e8; }
-.photo-wrap.coolers img { object-position: center 52%; }
-.photo-wrap.matcha img { object-position: center 60%; }
+.photo-wrap.coolers img, .photo-wrap.matcha img {
+  min-width: 0; min-height: 0; object-fit: contain; object-position: center;
+}
+.photo-wrap.matcha { background: #eee5d4; }
 .drink-info { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; min-height: 95px; padding: 19px 20px 18px; }
 .drink-info h3 { margin: 0; font-size: 1.22rem; line-height: 1.2; letter-spacing: -.02em; }
 .drink-info p { margin: 5px 0 0; color: #596061; font-size: .9rem; line-height: 1.35; }
