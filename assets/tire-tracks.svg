@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 600" width="120" height="600">
+  <defs><pattern id="tread" width="120" height="74" patternUnits="userSpaceOnUse">
+    <path d="M14 0v74M97 0v74" fill="none" stroke="#303138" stroke-width="3" opacity=".25"/>
+    <path d="M9 9 39 22 31 40 1 27ZM50 9 80 22 72 40 42 27ZM54 47 84 60 76 78 46 65ZM13 47 43 60 35 78 5 65Z" fill="#303138" opacity=".55"/>
+  </pattern></defs>
+  <rect width="120" height="600" fill="url(#tread)"/>
+</svg>

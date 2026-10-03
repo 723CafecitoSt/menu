@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 104 232" role="img" aria-labelledby="title">
+  <title id="title">Traffic light</title>
+  <path d="M52 0v19" stroke="#171b20" stroke-width="9" stroke-linecap="round"/>
+  <rect x="12" y="17" width="80" height="203" rx="24" fill="#171b20" stroke="#f0ad2e" stroke-width="5"/>
+  <circle cx="52" cy="58" r="22" fill="#d94439" stroke="#090b0e" stroke-width="5"/>
+  <circle cx="52" cy="119" r="22" fill="#edbb3f" stroke="#090b0e" stroke-width="5"/>
+  <circle cx="52" cy="180" r="22" fill="#65a277" stroke="#090b0e" stroke-width="5"/>
+  <circle cx="43" cy="49" r="5" fill="#fff" opacity=".45"/>
+  <circle cx="43" cy="110" r="5" fill="#fff" opacity=".5"/>
+  <circle cx="43" cy="171" r="5" fill="#fff" opacity=".5"/>
+</svg>
