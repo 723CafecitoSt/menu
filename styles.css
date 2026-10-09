@@ -143,3 +143,5 @@ footer span { font-size: .85rem; }
   html { scroll-behavior: auto; }
   .drink-card { transition: none; }
 }
+
+.event-schedule { margin: 12px 0 18px; font-size: 1rem; line-height: 1.8; font-weight: 700; }
