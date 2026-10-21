@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fbf8ef">
-  <meta name="description" content="Find 723 Cafecito St. at Halloween BBQ Market and explore our featured drinks and current menu.">
-  <title>723 Cafecito St. | Halloween BBQ Market Menu</title>
-  <link rel="stylesheet" href="styles.css?v=halloween-bbq-1">
+  <meta name="description" content="Find our next stop, explore upcoming events, and discover the 723 Cafecito St. menu.">
+  <title>723 Cafecito St. | Menu & Events</title>
+  <link rel="stylesheet" href="styles.css?v=calendar-1">
 </head>
 <body>
   <div class="page-shell">
@@ -17,22 +17,20 @@
 
     <main id="top">
       <section class="event-sign" aria-labelledby="event-title">
-        <div class="event-copy">
-          <p class="sign-label">Next stop · Saturday, October 17, 2026</p>
-          <h1 id="event-title">Halloween BBQ Market <span>Coffee, coolers &amp; Halloween drinks</span></h1>
-          <p class="event-place">El Paso County Coliseum</p>
-          <p class="event-schedule">Saturday, October 17 · 2–8 PM</p>
-          <a class="directions" href="https://www.google.com/maps/search/?api=1&amp;query=El+Paso+County+Coliseum" target="_blank" rel="noopener noreferrer">Get directions <span aria-hidden="true">↗</span></a>
+        <div class="event-copy" id="next-stop" aria-live="polite">
+          <p class="sign-label">Next stop</p>
+          <h1 id="event-title">Follow the coffee <span>Our next stop is on the way.</span></h1>
+          <p class="event-place">Check our upcoming stops below.</p>
         </div>
         <img class="traffic-light" src="assets/traffic-light.svg" alt="" aria-hidden="true">
       </section>
 
       <nav class="section-nav" aria-label="Explore the menu">
-        <a href="#featured">Featured drinks</a><a href="#menu">Full menu</a>
+        <a href="#featured">Featured drinks</a><a href="#menu">Full menu</a><a href="#events">Upcoming stops</a>
       </nav>
 
       <section id="featured" class="featured" aria-labelledby="featured-title">
-        <div class="section-heading"><p class="eyebrow">Fresh from 723</p><h2 id="featured-title">Featured drinks</h2><p>Meet the cups making a stop at Halloween BBQ Market.</p></div>
+        <div class="section-heading"><p class="eyebrow">Fresh from 723</p><h2 id="featured-title">Featured drinks</h2><p>Good coffee and colorful coolers, wherever the street takes us.</p></div>
         <div class="featured-grid">
           <article class="drink-card">
             <div class="photo-wrap apple"><img src="assets/caramel-green-apple-latte.png" alt="Iced caramel green apple latte beside a green apple" fetchpriority="high"></div>
@@ -61,6 +59,14 @@
         <a class="pdf-link" href="assets/halloween-bbq-menu.png" target="_blank" rel="noopener noreferrer">View full-size menu <span aria-hidden="true">↗</span></a>
       </section>
 
+      <section id="events" class="events" aria-labelledby="events-title">
+        <div class="section-heading"><p class="eyebrow">Catch us on the street</p><h2 id="events-title">Upcoming stops</h2><p>Your next cafecito is just around the corner.</p></div>
+        <p id="events-status" role="status">Checking the route…</p>
+        <div id="events-grid" class="events-grid"></div>
+        <a class="calendar-link" id="calendar-link" target="_blank" rel="noopener noreferrer">View our public calendar ↗</a>
+        <noscript><p>Enable JavaScript or open our <a href="https://calendar.google.com/calendar/embed?src=96da1d18251170a86044a2ced2cb8d9f212134a4af2537ce5be0f98fc8d0f2f7%40group.calendar.google.com">public events calendar</a> to find our next stop.</p></noscript>
+      </section>
+
       <a class="instagram-cta" href="https://www.instagram.com/723cafecitostreet/" target="_blank" rel="noopener noreferrer" aria-label="Follow 723 Cafecito St. on Instagram">
         <svg width="34" height="34" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
         <span><strong>Follow us on Instagram</strong><small>@723cafecitostreet</small></span><b aria-hidden="true">↗</b>
@@ -68,5 +74,6 @@
     </main>
     <footer><p>Good coffee. Good people. Good vibes.</p><span>723 Cafecito St. · El Paso, TX</span></footer>
   </div>
+  <script src="events.js?v=1" defer></script>
 </body>
 </html>

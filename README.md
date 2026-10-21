@@ -1,13 +1,12 @@
-# 723 Cafecito St. menu site
+# 723 Cafecito St. — Menu and Events
 
-Static website for GitHub Pages. It does not take online orders.
+Upload index.html, styles.css, events.js and the assets folder to the root of the existing GitHub repository (723CafecitoSt/menu). Commit to main. The public URL and QR remain the same.
 
-## Publish
+## Manage events
+Create or edit public events in 723 Cafecito St. — Events in Google Calendar. Include a title, start/end times and a location. Recurring events are supported. Canceled/deleted events disappear on the next refresh. The website reads the next 24 ongoing/upcoming events, displays times in El Paso time, and refreshes every five minutes while open. Visitors can only view events.
 
-The site is published at `https://723cafecitost.github.io/menu/` from the **723CafecitoSt** GitHub account. To update it, upload the contents of this folder to the root of the existing `menu` repository and commit the changes to `main`. The PDF and images belong in the `assets/` folder.
+Next stop automatically shows the first ongoing/upcoming event. If none exist, it shows an announcement message. If Google is unavailable, visitors can open the public calendar using the link below the event cards.
 
-## Update for the next event
+The browser API key must remain restricted to https://723cafecitost.github.io/* and Google Calendar API. Local file previews may not load events due to those website restrictions. Do not remove the restrictions.
 
-Edit `index.html` to change event details and featured drink cards. For a new event menu, put its PDF and mobile-friendly preview image in `assets/` and update their paths in `index.html`. The URL remains the same. Keep image paths relative (for example `assets/matcha.png`).
-
-GitHub Pages updates may take a few minutes. Check the live page after each change.
+Menu images are updated separately in GitHub; Calendar changes update event information only.

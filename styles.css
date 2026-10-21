@@ -145,3 +145,15 @@ footer span { font-size: .85rem; }
 }
 
 .event-schedule { margin: 12px 0 18px; font-size: 1rem; line-height: 1.8; font-weight: 700; }
+
+.events { margin-bottom: 65px; }
+.events-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px; }
+.stop-card { background:#fffdfa; border:2px solid #22272a; border-radius:17px; padding:24px; box-shadow:6px 7px 0 #e6d8b7; overflow-wrap:anywhere; }
+.stop-date { display:inline-block; background:#ffbf3d; color:#1a1d20; padding:6px 12px; border:2px solid #22272a; border-radius:6px; font-size:.85rem; font-weight:900; text-transform:uppercase; letter-spacing:.04em; }
+.stop-card h3 { font-size:1.5rem; margin:17px 0 10px; line-height:1.2; }
+.stop-card p { line-height:1.6; margin:7px 0; }
+.stop-card a, .calendar-link { display:inline-block; font-weight:800; margin-top:14px; text-underline-offset:4px; }
+.calendar-link { margin-top:26px; }
+.stop-time { font-weight:800; }
+[hidden] { display:none !important; }
+@media(max-width:640px) { .events-grid { grid-template-columns:1fr; } .section-nav { flex-wrap:wrap; } }
