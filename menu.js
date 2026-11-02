@@ -13,21 +13,21 @@ window.CAFECITO_MENU = {
   ],
   categories: [
     { name: "Coffee Bar", items: [
-      ["Americano", "$5.00"], ["Iced Americano", "$6.00"], ["Hot Latte", "$7.00"], ["Iced Latte", "$7.00"],
-      ["Chocolate", "$7.00", "Hot or iced"], ["Mocha", "$8.00", "Hot or iced"], ["White Mocha", "$8.00", "Hot or iced"],
-      ["Chai Tea Latte", "$7.00", "Hot or iced"], ["Add a flavor", "+$1.00", "Pistachio · Coconut · Caramel"], ["Extra Espresso Shot", "$1.50"]
+      ["Americano", "$5.00"], ["Iced Americano", "$6.00"], ["Hot Latte", "$7.00"], ["Iced Latte", "$7.00"], ["Cafe de Olla", "$6.00"],
+      ["Chocolate Mexicano", "$7.00", "Hot or iced"], ["Mocha", "$8.00", "Hot or iced"], ["White Mocha", "$8.00", "Hot or iced"],
+      ["Chai Tea Latte", "$7.00", "Hot or iced"], ["Add a flavor", "+$1.00", "Pistachio · Coconut · Caramel · Pumpkin Spice · Vanilla"], ["Extra Espresso Shot", "$1.50"]
     ]},
     { name: "Street Coolers", items: [
       ["Watermelonade Street Cooler", "$8.00", "Watermelon · Lemonade · Electrolytes · Watermelon Cold Foam"],
       ["Dirty Cow", "$8.00", "Root Beer Dirty Soda · Marshmallow · Vanilla Cold Foam"],
       ["Mango Traffic Jam", "$8.00", "Mango · Lemonade · Chamoy · Tajín · Tamarindo Candy · Electrolytes"]
     ]},
-    { name: "Matchas", items: [["Iced Matcha Latte", "$7.00"], ["Add flavor to your matcha", "+$1.00", "Strawberry · Mango"]] },
+    { name: "Matchas", items: [["Iced Matcha Latte", "$7.00"], ["Add flavor to your matcha", "+$1.00", "Strawberry · Mango · Coconut"]] },
     { name: "Fall Season", items: [["Pumpkin Spice Latte", "$8.00", "Hot or iced"], ["Caramel Green Apple Latte", "$8.00", "Hot or iced"]] },
     { name: "723 Insignia", items: [
-      ["Affogato", "$5.50", "Vanilla Ice Cream · Espresso Shot"], ["Orange Aerocano", "$5.50", "Orange Juice · Espresso Shot (9 oz.)"],
+      ["Affogato", "$5.50", "Vanilla Ice Cream · Espresso Shot"], ["Aerocano", "$5.50", "(9 oz.)"],
       ["Root Beer Float", "$6.50", "Root Beer Soda · Ice Cream"], ["Cafe Maya", "$8.00", "Espresso · Habanero"],
-      ["Chocolate Maya", "$8.00", "Chocolate · Habanero"]
+      ["Chocolate Maya", "$8.00", "Chocolate · Habanero"], ["Cafe de Olla", "$6.00", "Traditional Mexican Coffee"]
     ]}
   ],
   note: "Oatmilk substitution available on any product at no extra cost."
