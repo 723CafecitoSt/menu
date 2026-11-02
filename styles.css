@@ -39,6 +39,28 @@ img { max-width: 100%; }
   text-decoration: none; font-size: .9rem; font-weight: 800; letter-spacing: .01em;
 }
 .header-social span { color: #ffbf3d; margin-left: 4px; }
+
+.header-actions {
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  gap:8px;
+}
+.header-order {
+  background:#ffbf3d;
+  color:#1a1d20;
+  padding:11px 17px;
+  border-radius:999px;
+  text-decoration:none;
+  font-size:.9rem;
+  font-weight:900;
+  letter-spacing:.01em;
+  text-align:center;
+  border:2px solid #1a1d20;
+}
+.header-order span { margin-left:4px; }
+.header-order:hover,
+.header-order:focus-visible { background:#ffd36d; }
 main { max-width: 1040px; padding: 0 28px; margin: auto; }
 .event-sign {
   min-height: 275px; display: flex; align-items: center; justify-content: space-between; gap: 30px;
@@ -123,6 +145,8 @@ footer span { font-size: .85rem; }
   .masthead { padding: 13px 18px; }
   .brand img { width: 94px; }
   .header-social { font-size: .78rem; padding: 9px 12px; }
+  .header-order { font-size:.78rem; padding:9px 12px; }
+  .header-actions { gap:6px; }
   main { padding: 0 16px; }
   .event-sign { padding: 24px 23px; min-height: 0; gap: 9px; border-radius: 18px; box-shadow: 6px 7px 0 rgba(24,28,32,.14); }
   .sign-label { font-size: .7rem; letter-spacing: .08em; }
