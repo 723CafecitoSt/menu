@@ -239,3 +239,23 @@ footer span { font-size: .85rem; }
   .menu-category { padding:15px; }
   .menu-category h3 { font-size:1.28rem; }
 }
+
+
+.regular-location{
+  margin:18px 0 20px;
+  padding:16px 20px;
+  border:2px solid #f2b705;
+  border-radius:16px;
+  background:#fff8dc;
+  color:#1d1d1b;
+  text-align:center;
+  box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+.regular-location p{
+  margin:0;
+  font-size:clamp(1rem,2.2vw,1.18rem);
+  line-height:1.45;
+}
+.regular-location strong{
+  font-weight:800;
+}
