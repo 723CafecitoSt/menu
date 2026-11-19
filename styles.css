@@ -294,14 +294,14 @@ footer span { font-size: .85rem; }
 .winter-season .event-sign::before { display:none; }
 .winter-season .sign-label { color:#c9e8ed; }
 .winter-season .event-schedule { color:#f9df9d; }
-.winter-season .event-sign::after { content:"";position:absolute;top:-17px;left:14px;width:170px;height:35px;background:url('assets/snow-drift.svg') center/100% 100% no-repeat;pointer-events:none;filter:drop-shadow(0 3px 2px #102a3530); }
+.winter-season .event-sign::after { content:"";position:absolute;top:-17px;left:14px;width:170px;height:35px;background:url('assets/snow-drift.svg?v=2') center/100% 100% no-repeat;pointer-events:none;filter:drop-shadow(0 3px 2px #102a3530); }
 .winter-season .section-nav a { box-shadow:4px 4px 0 #aac9d6; }
 .winter-season .eyebrow { background:#214b5c;color:#e4f2f5; }
 .winter-season .drink-card { border-color:#7798a7;background:#fff;box-shadow:7px 8px 0 #cadae0;position:relative;overflow:visible; }
 .winter-season .drink-card:hover {box-shadow:7px 11px 0 #cadae0;}
 .winter-season .winter-photo {height:auto;aspect-ratio:4/5;border-radius:17px 17px 0 0;position:relative;background:#eaf0f3;}
 .winter-photo img {min-height:0;object-fit:contain;object-position:center;}
-.winter-drink::after {content:"";position:absolute;left:-8px;bottom:-9px;width:132px;height:34px;background:url('assets/snow-drift.svg') center/100% 100% no-repeat;filter:drop-shadow(0 3px 2px #7a9cab40);pointer-events:none;}
+.winter-drink::after {content:"";position:absolute;left:-8px;bottom:-9px;width:132px;height:34px;background:url('assets/snow-drift.svg?v=2') center/100% 100% no-repeat;filter:drop-shadow(0 3px 2px #7a9cab40);pointer-events:none;}
 .winter-drink:nth-child(2)::after {left:auto;right:-9px;transform:scaleX(-1);width:105px;}
 .winter-season .drink-info {padding-bottom:26px;}
 .winter-season .menu-category {background:#fbfdfe;border-color:#90abb7;box-shadow:6px 7px 0 #cedeE5;position:relative;}
@@ -313,11 +313,18 @@ footer span { font-size: .85rem; }
 .winter-season .waffle-addon {background:#f4eddf;}
 .weekly-drink {font-size:.9rem;line-height:1.5;color:#426170;margin:15px 0 2px;}
 .winter-season .oatmilk-note {background:#eef7f8;border-color:#8eafbe;box-shadow:4px 5px 0 #c6dbe3;}
-.winter-season .menu-category:first-child::before {content:"";position:absolute;top:-17px;right:8px;width:120px;height:29px;background:url('assets/snow-drift.svg') center/100% 100% no-repeat;pointer-events:none;}
+.winter-season .menu-category:first-child::before {content:"";position:absolute;top:-17px;right:8px;width:120px;height:29px;background:url('assets/snow-drift.svg?v=2') center/100% 100% no-repeat;pointer-events:none;}
 .winter-season .stop-card {background:#fbfdfe;border-color:#90abb7;box-shadow:6px 7px 0 #cedeE5;}
 .snowfall {position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:6;}
 .snowflake {position:absolute;top:-35px;left:var(--x);width:var(--size);height:var(--size);color:#fff;opacity:var(--opacity);filter:drop-shadow(0 1px 1px #75a1b170);animation:snow-fall var(--duration) linear infinite;animation-delay:var(--delay);will-change:transform;}
 .snowflake svg {width:100%;height:100%;display:block;}
 @keyframes snow-fall {0%{transform:translate3d(0,-25px,0) rotate(0deg)}50%{transform:translate3d(var(--drift),52vh,0) rotate(90deg)}100%{transform:translate3d(0,105vh,0) rotate(180deg)}}
-@media(max-width:700px){.winter-season .winter-photo{aspect-ratio:4/5;}.winter-season .event-sign::after{width:115px;height:28px;top:-14px;}.snowflake:nth-child(n+19){display:none}.winter-drink::after{width:100px;height:27px;}}
+@media(max-width:700px){.winter-season .winter-photo{aspect-ratio:4/5;}.winter-season .event-sign::after{width:115px;height:28px;top:-14px;}.snowflake:nth-child(n+39){display:none}.winter-drink::after{width:100px;height:27px;}}
 @media(prefers-reduced-motion:reduce){.snowfall{display:none;}}
+
+.drink-info .availability {color:#254f61;font-weight:800;font-size:.85rem;margin-top:9px;}
+.winter-season .event-sign::after {height:25px;top:-12px;width:190px;}
+.winter-drink::after {width:155px;height:25px;bottom:-8px;}
+.winter-drink:nth-child(2)::after {width:135px;}
+.winter-season .menu-category:first-child::before {height:22px;top:-11px;width:145px;}
+@media(max-width:700px){.winter-season .event-sign::after{height:20px;top:-10px;width:140px}.winter-drink::after{height:22px;width:125px;}}
