@@ -30,6 +30,7 @@
     a.target='_blank'; a.rel='noopener noreferrer'; return a;
   }
   function showNext(event) {
+    if (next.dataset.pinned === "true") return;
     const l=labels(event); next.replaceChildren();
     next.append(el('p','sign-label','Next stop · '+l.date));
     const h=el('h1','',event.summary||'723 Cafecito St.'); h.id='event-title';
@@ -61,8 +62,10 @@
     } finally {clearTimeout(timeout);}
   }
   function resetNext(message){
+    if (next.dataset.pinned === "true") return;
     next.replaceChildren(el('p','sign-label','Next stop'));
     const h=el('h1','','Follow the coffee');h.id='event-title';h.append(el('span','',message));next.append(h);
   }
   refresh();setInterval(refresh,5*60*1000);
 })();
+

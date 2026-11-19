@@ -6,9 +6,10 @@
   <meta name="theme-color" content="#fbf8ef">
   <meta name="description" content="Find our next stop, explore upcoming events, and discover the 723 Cafecito St. menu.">
   <title>723 Cafecito St. | Menu & Events</title>
-  <link rel="stylesheet" href="styles.css?v=fall-menu-3">
+  <link rel="stylesheet" href="styles.css?v=winterfest-1">
 </head>
-<body>
+<body class="winter-season">
+  <div class="snowfall" id="snowfall" aria-hidden="true"></div>
   <div class="page-shell">
     <header class="masthead">
       <a class="brand" href="#top" aria-label="723 Cafecito St. home"><img src="assets/logo.png" alt="723 Cafecito St."></a>
@@ -19,15 +20,15 @@
     </header>
 
     <main id="top">
-      <section class="regular-location" aria-label="Regular location">
-        <p><strong>Find us at our regular location</strong> Monday through Friday, from <strong>2:00 PM to 8:00 PM</strong>, at <strong>11345 Pellicano Dr., El Paso, TX 79936</strong>.</p>
-      </section>
+      <section class="regular-location" aria-label="WinterFest location"><p><strong>Find us at WinterFest</strong> · November 21, 2026 – January 3, 2027<br><strong>San Jacinto Plaza · El Paso, Texas</strong></p></section>
 
       <section class="event-sign" aria-labelledby="event-title">
-        <div class="event-copy" id="next-stop" aria-live="polite">
-          <p class="sign-label">Next stop</p>
-          <h1 id="event-title">Follow the coffee <span>Our next stop is on the way.</span></h1>
-          <p class="event-place">Check our upcoming stops below.</p>
+        <div class="event-copy" id="next-stop" data-pinned="true">
+          <p class="sign-label">A winter stop on Cafecito St.</p>
+          <h1 id="event-title">WinterFest <span>Cold nights. Warm cups.</span></h1>
+          <p class="event-place">San Jacinto Plaza · El Paso, Texas</p>
+          <p class="event-schedule">November 21, 2026 – January 3, 2027</p>
+          <a class="directions" href="https://www.google.com/maps/search/?api=1&amp;query=San+Jacinto+Plaza+El+Paso+Texas" target="_blank" rel="noopener noreferrer">Meet us at the plaza ↗</a>
         </div>
         <img class="traffic-light" src="assets/traffic-light.svg" alt="" aria-hidden="true">
       </section>
@@ -37,21 +38,21 @@
       </nav>
 
       <section id="featured" class="featured" aria-labelledby="featured-title">
-        <div class="section-heading"><p class="eyebrow">Fresh from 723</p><h2 id="featured-title">Featured drinks</h2><p>Good coffee and colorful coolers, wherever the street takes us.</p></div>
+        <div class="section-heading"><p class="eyebrow">Winter sips from 723</p><h2 id="featured-title">Featured drinks</h2><p>Made for frosty evenings and a little winter magic.</p></div>
         <div class="featured-grid">
-          <article class="drink-card">
-            <div class="photo-wrap apple"><img src="assets/caramel-green-apple-latte.png" alt="Iced caramel green apple latte beside a green apple" fetchpriority="high"></div>
-            <div class="drink-info"><div><h3>Caramel Green Apple Latte</h3><p>Hot or iced</p></div><strong>$8</strong></div>
+          <article class="drink-card winter-drink">
+            <div class="photo-wrap winter-photo"><img src="assets/feliz-navinana.jpg" alt="Feliz Navinana Pudding Matcha with banana pudding, matcha and creamy topping in a winter setting" fetchpriority="high" width="1122" height="1402"></div>
+            <div class="drink-info"><div><h3>Feliz Navinana Pudding Matcha</h3><p>A little banana bliss for your winter stroll.</p></div><strong>$8</strong></div>
           </article>
-          <article class="drink-card">
-            <div class="photo-wrap pumpkin"><img src="assets/pumpkin-spice-latte.png" alt="Iced pumpkin spice latte with an autumn backdrop" loading="lazy"></div>
-            <div class="drink-info"><div><h3>Pumpkin Spice Latte</h3><p>Hot or iced</p></div><strong>$8</strong></div>
+          <article class="drink-card winter-drink">
+            <div class="photo-wrap winter-photo"><img src="assets/peppermint-hot-chocolate.jpg" alt="Peppermint hot chocolate topped with mini marshmallows and a small candy cane" loading="lazy" width="1122" height="1402"></div>
+            <div class="drink-info"><div><h3>Peppermint Hot Chocolate</h3><p>Cozy chocolate, peppermint &amp; mini marshmallows.</p></div><strong>$8</strong></div>
           </article>
         </div>
       </section>
 
       <section id="menu" class="menu" aria-labelledby="menu-title">
-        <div class="section-heading"><p class="eyebrow">Fall Season</p><h2 id="menu-title">Full menu</h2><p>Our current menu, ready for every stop.</p></div>
+        <div class="section-heading"><p class="eyebrow">WinterFest edition</p><h2 id="menu-title">Full menu</h2><p>Your warm-up stop at San Jacinto Plaza.</p></div>
 
         <div class="full-menu-grid">
           <section class="menu-category coffee-menu">
@@ -68,43 +69,18 @@
               <li><span>Chai Tea Latte <small>(Hot or Iced)</small></span><strong>$7.00</strong></li>
             </ul>
             <div class="menu-addon"><b>Add a Flavor +$1.00</b><span>Pistachio · Coconut · Caramel · Pumpkin Spice · Vanilla</span></div>
-            <p class="menu-extra"><span>Extra Espresso Shot</span><strong>$1.50</strong></p>
           </section>
 
-          <section class="menu-category street-menu">
-            <h3>🥤 Street Coolers</h3>
-            <ul class="menu-with-notes">
-              <li><span><b>Watermelonade Street Cooler</b><small>Watermelon + Lemonade + Electrolytes + Watermelon Cold Foam</small></span><strong>$8.00</strong></li>
-              <li><span><b>Dirty Cow</b><small>Root Beer Dirty Soda + Marshmallow + Vanilla Cold Foam</small></span><strong>$8.00</strong></li>
-              <li><span><b>Mango Traffic Jam</b><small>Mango + Lemonade + Chamoy + Tajín + Tamarindo Candy + Electrolytes</small></span><strong>$8.00</strong></li>
-            </ul>
-          </section>
 
           <section class="menu-category matcha-menu">
             <h3>🍃 Matchas</h3>
-            <ul><li><span>Iced Matcha Latte</span><strong>$7.00</strong></li></ul>
+            <ul><li><span>Iced or Hot Matcha Latte</span><strong>$7.00</strong></li></ul>
             <div class="menu-addon matcha-addon"><b>Add flavor to your Matcha +$1.00</b><span>Strawberry · Mango · Coconut</span></div>
           </section>
 
-          <section class="menu-category halloween-menu">
-            <h3>🍂 Fall Season</h3>
-            <ul class="menu-with-notes">
-              <li><span><b>Caramel Green Apple Latte</b><small>Hot or Iced</small></span><strong>$8.00</strong></li>
-              <li><span><b>Pumpkin Spice Latte</b><small>Hot or Iced</small></span><strong>$8.00</strong></li>
-            </ul>
-          </section>
+          <section class="menu-category winter-menu"><h3>❄ WinterFest Select</h3><ul><li><span>Peppermint Hot Chocolate</span><strong>$8.00</strong></li><li><span>Peppermint Mocha <small>Hot or Iced</small></span><strong>$8.00</strong></li></ul><p class="weekly-drink">Ask about our special holiday-inspired drink of the week.</p></section>
 
-          <section class="menu-category insignia-menu">
-            <h3>★ 723 Insignia</h3>
-            <ul class="menu-with-notes">
-              <li><span><b>Affogato</b><small>Vanilla Ice Cream + Espresso Shot</small></span><strong>$5.50</strong></li>
-              <li><span><b>Aerocano</b><small>(9 oz.)</small></span><strong>$5.50</strong></li>
-              <li><span><b>Root Beer Float</b><small>Root Beer Soda + Ice Cream</small></span><strong>$6.50</strong></li>
-              <li><span><b>Cafe Maya</b><small>Espresso + Habanero</small></span><strong>$8.00</strong></li>
-              <li><span><b>Chocolate Maya</b><small>Chocolate + Habanero</small></span><strong>$8.00</strong></li>
-              <li><span><b>Cafe de Olla</b><small>Traditional Mexican Coffee</small></span><strong>$6.00</strong></li>
-            </ul>
-          </section>
+          <section class="menu-category insignia-menu"><h3>★ 723 Insignia</h3><ul class="menu-with-notes"><li><span><b>Cafe Maya</b><small>Espresso + Habanero Syrup</small></span><strong>$8.00</strong></li><li><span><b>Chocolate Maya</b><small>Mexican Chocolate Latte + Habanero Syrup</small></span><strong>$8.00</strong></li></ul></section>
 
           <section class="menu-category waffles-menu">
             <h3>🧇 Waffles</h3>
@@ -113,6 +89,7 @@
           </section>
         </div>
 
+        <a class="pdf-link" href="assets/winterfest-menu.jpeg" target="_blank" rel="noopener noreferrer">View the WinterFest menu poster ↗</a>
         <p class="oatmilk-note">♡ You can substitute with oatmilk on any of our products at no extra cost!</p>
       </section>
 
@@ -131,6 +108,8 @@
     </main>
     <footer><p>Good coffee. Good people. Good vibes.</p><span>723 Cafecito St. · El Paso, TX</span></footer>
   </div>
-  <script src="events.js?v=1" defer></script>
+  <script src="events.js?v=winterfest-1" defer></script>
+  <script src="winter.js?v=1" defer></script>
 </body>
 </html>
+
